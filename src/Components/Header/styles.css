@@ -1,0 +1,10 @@
+/* importa constants til að nota, til */
+
+.Header {
+  background-color: brown;
+  color: brown;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+  display: flex;
+}
