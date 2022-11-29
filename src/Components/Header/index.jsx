@@ -12,7 +12,7 @@ function Navibar() {
   return (
     <Navbar className="Header" >
       <Container className='flex' >
-        <Navbar.Brand href="#home">Sjúkraþjálfun Holtsins</Navbar.Brand>
+        <Navbar.Brand href="#home">HAUKUR HLÖ</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
