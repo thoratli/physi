@@ -1,33 +1,63 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Navibar from './Components/Header';
 import React from 'react';
+import ImageContainer from './Components/ImageContainer';
+import Spacer from './Components/Spacer';
+import FooterInfo from './Components/Footer';
 import './App.css';
+// import Slider from './Components/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Stafflist from './Components/StaffCard';
+import AboutUs from './Components/AboutUs';
+import Facility from './Components/Facilities';
+import Contact from './Components/Contact'
+
 
 function App() {
   return (
     <div className="App">
       <header>
-        <Navibar />
+        {/* navigation bar */}
+        <Navibar id="home" />
       </header>
 
       <main>
-        <img src={logo} className="App-logo" alt="logo" />
-        <button onClick={shoot}>skot og hvað?</button>
+        <section>
+          {/* <Slider/> */}
+          <Spacer />
+          <ImageContainer />
+          <Spacer />
+        </section>
+
+        <section id="aboutUs">
+          <AboutUs />
+        </section>
+
+        <Spacer />
+
+        <section id="staff">
+          <Stafflist />
+        </section>
+
+        <Spacer />
+
+        <section id="facility">
+          <Facility />
+        </section>
+
+        <Spacer />
+
+        <section id="contact">
+          <Contact />
+        </section>
+
       </main>
 
       <footer>
-        <div>Ssererda</div>
+        <FooterInfo />
       </footer>
     </div>
   );
-}
-
-function shoot() {
-  const greeting = 'Hello Function Component!';
-  alert('mark');
-  console.log('prófa');
-  return <h1>{greeting}</h1>;
 }
 
 export default App;

@@ -1,0 +1,44 @@
+/* importa constants til að nota, til */
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
+  min-height: 14vh;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+.text-background {
+  background-color: lightslategray;
+  border-radius: 2em;
+}
+
+.link {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  opacity: 0.8;
+  color: grey;
+}
+
+.logo {
+  width: auto;
+  display: flex;
+  align-items: center;
+  height: 10vmin;
+  pointer-events: none;
+}
