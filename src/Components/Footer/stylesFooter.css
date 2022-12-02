@@ -1,0 +1,28 @@
+.bottom-container {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    text-align: justify;
+    width: 40%;
+    padding: 10px;
+}
+
+.right {
+    text-align: justify;
+    width: 40%;
+    padding: 10px;
+}
+
+.h1 {
+    font-size: 1em;
+    color: yellow !important;
+    text-align: center;
+}

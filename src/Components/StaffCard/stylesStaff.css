@@ -1,0 +1,15 @@
+.card-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-image {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+.name {
+    font-size: 1.4em;
+}

@@ -1,0 +1,35 @@
+.about-us-container {
+    padding: 20px;
+    text-align: justify;    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us-container h1 {
+    text-align: center;
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    text-decoration: double;
+    text-transform: uppercase;
+}
+
+.about-us-text {
+    line-height: 1.8em;
+    font-size: 1.2em;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.first-letter {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+
+
+.about-us-image {
+    background-color: red;
+}
