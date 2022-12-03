@@ -2,6 +2,7 @@
     "staffmembers": [
         {
             "Name": "Hlynur Helgi Arngrímsson",
+            "diplomas": "BSc Master PHD King",
             "Image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "About": "https://www.google.com/",
             "Prior": [
@@ -26,7 +27,7 @@
                     "diploma": "BS",
                     "school": "Built and updated various Chrome Extensions.",
                     "startDate": "2017-01-01",
-                    "endDate": "2017-05-01",
+                    "endDate": "2017-05-01"
                 }
             ]
         }
