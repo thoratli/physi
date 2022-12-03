@@ -2,6 +2,7 @@
     background-color: lightgrey;
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 .footer {
@@ -9,20 +10,20 @@
     justify-content: space-around;
 }
 
-.left {
+.bottom-left {
     text-align: justify;
     width: 40%;
     padding: 10px;
 }
 
-.right {
+.bottom-right {
     text-align: justify;
     width: 40%;
     padding: 10px;
 }
 
-.h1 {
-    font-size: 1em;
-    color: yellow !important;
-    text-align: center;
+h1 {
+    font-size: 2em !important;
+    text-align: left;
+    color: black;
 }

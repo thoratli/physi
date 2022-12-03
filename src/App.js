@@ -1,16 +1,17 @@
 // import logo from './logo.svg';
-import Navibar from './Components/Header';
+import Navibar from './Components/Header/header';
 import React from 'react';
-import ImageContainer from './Components/ImageContainer';
-import Spacer from './Components/Spacer';
-import FooterInfo from './Components/Footer';
+import ImageContainer from './Components/ImageContainer/imageContainer';
+import Spacer from './Components/Spacer/spacer';
+import FooterInfo from './Components/Footer/footer';
 import './App.css';
 // import Slider from './Components/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Stafflist from './Components/StaffCard';
-import AboutUs from './Components/AboutUs';
-import Facility from './Components/Facilities';
-import Contact from './Components/Contact'
+import Stafflist from './Components/StaffCard/staffcard';
+import AboutUs from './Components/AboutUs/aboutUs';
+import Facility from './Components/Facilities/facilities';
+import Contact from './Components/Contact/contact'
+// import staffData from './staff.json'
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
         <Spacer />
 
         <section id="staff">
-          <Stafflist />
+          <Stafflist/>
         </section>
 
         <Spacer />
@@ -50,7 +51,6 @@ function App() {
         <section id="contact">
           <Contact />
         </section>
-
       </main>
 
       <footer>
@@ -59,5 +59,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
