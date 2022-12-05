@@ -15,9 +15,9 @@ import './stylesFacility.css';
 function Facility() {
     return (
         <div className='facility-container'>
-            <div>
+            {/* <div>
                 <img alt='mynd af hlyn' className='card-image' src={'/static/images/hlynur1.jpg'} />
-            </div>
+            </div> */}
             <div>
                 <div>
                     <p>

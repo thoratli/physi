@@ -77,3 +77,20 @@
     background-color: #f8f8f8;
     resize: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+    .element-container {
+        width: 80%;
+    }
+  }

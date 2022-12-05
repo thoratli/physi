@@ -4,13 +4,6 @@ import './stylesAbout.css';
 function AboutUs() {
     return (
         <div className="about-us-container">
-            <div>
-                <img style={{ height: 'auto', width: "300px" }}
-                    src={'/static/images/hlynur1.jpg'}
-                    alt="Kóngurinn og vinur"
-                />
-            </div>
-            <div>
                 <h1>Um okkur</h1>
                 <p className='about-us-text'><span className='first-letter'>S</span>júkraþjálfun
                 Grafarholts er fyrir aumingja sem eru orðnir þreyttir á því að vera aumingar.
@@ -30,7 +23,6 @@ function AboutUs() {
                     vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
             </div>
 
-        </div>
     );
 }
 
