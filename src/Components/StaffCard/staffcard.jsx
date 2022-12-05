@@ -24,7 +24,7 @@ function StaffList() {
             </div>
             <div className='staff-right-side'>
                 <div>
-                    <h1 className='staff-header'> Hlynur Helgi Arngrímsson</h1>
+                    <h1 className='staff-header'> Hlynur H. Arngrímsson</h1>
                     <h2 className='staff-subheader'> BSc Master Phd</h2>
                     <p>
                         Bambled it to make a type specimen book.

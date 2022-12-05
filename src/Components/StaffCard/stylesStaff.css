@@ -1,12 +1,12 @@
 .staffcard-container {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row !important;
 }
 
 .card-image {
-    width: 50%;
-    height: 400px;
+    width: 100%;
+    height: max-content;
     object-fit: cover;
 
 }
@@ -15,12 +15,11 @@
     display: flex;
     justify-content: center;
     width: 50%;
-    padding: 10px;
 }
 
 .staff-right-side {
     display: flex;
-    width: 50%;
+    width: 59%;
     flex-direction: column;
     padding: 10px;
 }
@@ -28,15 +27,15 @@
 .staff-header {
     margin-top: 10px;
     font-size: 1.3em;
-    text-align: left;
+    text-align: center;
     padding: 2px 2px;
-    color: red;
 }
 
 .staff-subheader {
     margin-left: 5px;
     font-size: 0.9em;
-    text-align: left;
+    text-align: center;
+    
 }
 
 .staff-text {
@@ -44,7 +43,6 @@
     text-align: left;
     margin-left: 9px;
     line-height: 0.4;
-    color: red;
 }
 
 @media only screen and (max-width: 600px) {

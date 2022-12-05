@@ -11,14 +11,13 @@ function Navibar() {
   return (
     <div className="header">
       <img alt="cover" className='cover' src={'/static/images/heilsa.jpg'} />
-
-      <div className='nav-bar'>
         {/* <img alt="logo" className='link' src={'/static/images/logo.png'} /> */}
+        <div className='nav-bar'>
         <a href="#aboutUs" className='link'>Um okkur</a>
           <a href="#staff" className='link'>Starfsmenn</a>
           <a href="#facility" className='link'>Aðstaða</a>
           <a href="#contact" className='link'>Hafa samband</a>
-      </div>
+          </div>
     </div>
   );
 }

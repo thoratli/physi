@@ -10,17 +10,18 @@
   width: 100%;
   object-fit: cover;
   height: 400px;
-  position: absolute;
-
 }
 
 .header {
   align-items: center;
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: space-evenly;
   background-color: white;
   min-height: 14vh;
+  position: relative;
+  color: white;
   /* font-size: calc(10px + 2vmin); */
 }
 
@@ -33,7 +34,7 @@
   font-size: 1.2em;
   font-weight: 500;
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 15px;
   border-radius: 5px;
   z-index: 100;
@@ -41,7 +42,7 @@
 
 .link:hover {
   opacity: 1;
-  color: black;
+  color: grey;
 }
 
 .logo {
@@ -58,13 +59,13 @@
 
 .nav-bar {
   z-index: 140;
-  font-size: 1.5em;
+  font-size: 1.2em;
   display: flex;
-  justify-content: space-evenly;
-  background-color: grey;
-  opacity: 0.7;
+  justify-content: space-around;
   width: 100%;
-  margin-top: 5em;
+  position: relative;
+  border: 2px;
+  border-style: dotted;
 }
 
 @media only screen and (max-width: 600px) {
