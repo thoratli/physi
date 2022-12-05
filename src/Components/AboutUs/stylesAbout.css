@@ -1,8 +1,10 @@
 .about-us-container {
-    padding: 20px;
+    padding: 10px;
     text-align: justify;    
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
 }
 
 .about-us-container h1 {
@@ -31,5 +33,24 @@
 
 
 .about-us-image {
-    background-color: red;
+    background-color: green;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .about-us-container {
+      font-size: 0.8em;
+      flex-direction: column;
+      padding: 5px;
+    }
+
+    .about-us-image {
+        display: none;
+    }
+
+    .about-us-text {
+        width: 93%;
+    }
+  }
+  

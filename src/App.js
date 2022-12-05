@@ -5,12 +5,13 @@ import ImageContainer from './Components/ImageContainer/imageContainer';
 import Spacer from './Components/Spacer/spacer';
 import FooterInfo from './Components/Footer/footer';
 import './App.css';
-// import Slider from './Components/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Stafflist from './Components/StaffCard/staffcard';
+// import Stafflist from './Components/StaffCard/staffcard';
 import AboutUs from './Components/AboutUs/aboutUs';
 import Facility from './Components/Facilities/facilities';
-import Contact from './Components/Contact/contact'
+import ContactUs from './Components/Contact/contact';
+import Slider from './Components/Carousel/carousel';
+
 // import staffData from './staff.json'
 
 
@@ -23,21 +24,22 @@ function App() {
       </header>
 
       <main>
-        <section>
+        <section style={{display: 'flex', marginTop: '100px'}}>
           {/* <Slider/> */}
-          <Spacer />
+          {/* <Spacer />
           <ImageContainer />
-          <Spacer />
+          <Spacer /> */}
         </section>
 
-        <section id="aboutUs">
-          <AboutUs />
+        <section id="aboutUs" style={{display: 'flex'}}>
+          <AboutUs  />
         </section>
 
         <Spacer />
 
         <section id="staff">
-          <Stafflist/>
+          {/* <Stafflist/> */}
+          <Slider />
         </section>
 
         <Spacer />
@@ -49,7 +51,7 @@ function App() {
         <Spacer />
 
         <section id="contact">
-          <Contact />
+          <ContactUs />
         </section>
       </main>
 
